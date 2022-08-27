@@ -10,7 +10,26 @@ class Blog {
   );
   // ignore: todo
   //TODO: Add List<Recipe> here
+  
+  }
+    // ignore: todo
+  //TODO: Add Ingredient() here
+  class Ingredient{
+  double quantity;
+    String measure;
+    String name;
+    Ingredient(
+      this.quantity,
+      this.measure,
+      this.name,
+    );
 
+
+
+
+  }
+  
+ 
   static List<Blog> samples = [
     Blog('Spaghetti and Meatballs', 'assets/images/food1.jpg'),
     Blog('Tomato Soup', 'assets/images/food2.jpg'),
